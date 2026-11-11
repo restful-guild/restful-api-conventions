@@ -34,7 +34,7 @@ Client errors: `400` invalid input, `401` not authenticated, `403` authenticated
 Return a consistent JSON body for API errors:
 
 ```json
-{ "error": { "code": "not_found", "message": "Resource not found", "request_id": "..." } }
+{ "error": { "code": "not_found", "message": "Resource not found" } }
 ```
 
 ## 4. Request and response bodies
